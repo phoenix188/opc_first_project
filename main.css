@@ -10,7 +10,7 @@ body
 .container
 
 {
-    width: 1280px;
+    width: 1150px;
     margin: 0 auto;
 }
 
@@ -171,7 +171,7 @@ nav ul li a
 .container_section
 
 {
-    width: 1300px;
+    width: 1150px;
     margin: 0 auto;
     padding-top: 20px;
 }
@@ -357,66 +357,108 @@ hr
 .container_part2
 
 {
-    width: 1380px;
-    margin: 0 auto;
+    
+    width: 1150px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
     position: relative;
 }
 
 
-.container_part2 img 
+.portfolio_item
 
 {
-    width: 19.65%;
-    margin: 25px;
-    margin-right: 0px;
-    margin-bottom: 10px;
+    position: relative;
+    width: 270px;
+    height: 180px;
+    overflow: hidden;
+    margin: 5px;
 }
 
 
-#personalize_pic4
+.portfolio_item img 
 
 {
-    position: absolute;
-    top: 0px;
-    left: 900px;
-    width: 100%;
+    max-width: 100%;
+    height: auto;
+}
+
+.portfolio_caption h3, .portfolio_caption p
+
+{
+    padding-left: 15px;
+    padding-bottom: 2.5px;
+    padding-top: 2.5px;
+    margin: 0px;
 }
 
 
-#center_text
-
-{
-    position: absolute;
-    top: 0px;
-    left: 25px;
-    top: 115px;
-    padding-left: 6px;
-    width: 19.3%;
-    background: rgba(0, 0, 0, 0.5);
-    color: white;
-}
-
-#center text h3
+.portfolio_caption p
 
 {
     margin-bottom: 5px;
 }
 
-#center_eyes
+
+.portfolio_caption
 
 {
     position: absolute;
-    top: 12px;
-    left: 220px;
+    bottom: -90px;
+    width: 100%;
+    color: rgb(255, 255, 255);
+    background-color: rgb(2, 2, 2, 0.6);
+    height: 60px;
+       
 }
 
 
-.container_part2 h3 p 
+.portfolio_eyes
 
 {
-    position: relative;
+    position: absolute;
+    padding: 10px;
+    background-color: rgb(84, 161, 197);
+    border-radius: 50%;
+    top: -21px;
+    right: 25px;
+    border: 2px solid white;
 }
 
+
+.portfolio_item:hover .portfolio_caption
+
+{
+    bottom: 0px; 
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*last part*/
 
 
 section#contact 
@@ -491,5 +533,30 @@ section#contact
 {
     font-size: 0.8em;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
